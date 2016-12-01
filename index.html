@@ -7,9 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/skeleton-tabs.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
+
+		<img src = "images/decafbg-single.jpg" class="bg" />
 
 		<!-- Header -->
 			<section id="header" style="background-color: rgba(255, 255, 255, 0.6);">
@@ -93,26 +96,71 @@
 			</article>
 
 		<!-- Contact -->
-			<!-- <article class="container box style3">
+			<article class="container box style3">
 				<header>
-					<h2>Contact Us</h2>
-					<p>Please Let Us Know If You Have Any Questions!</p>
+					<h2>Frequently Asked Questions</h2>
+					<p>Please <a href="mailto:vera@tesc.ucsd.edu">Let Us Know</a> If You Have Any Questions!</p>
 				</header>
-				<form method="post" action="#">
-					<div class="row 50%">
-						<div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
-						<div class="12u$">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-						<div class="12u$">
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
+				<div class="row">
+					<div class="12u" style="text-align: center;">
+						<ul class="tab-nav">
+						  <li>
+						    <a class="button active" href="#one">For Companies</a>
+						  </li>
+						  <li>
+						    <a class="button" href="#two">For Students</a>
+						  </li>
+						</ul>
+						<div class="tab-content">
+						  <div class="tab-pane active" id="one">
+						  	<h4>When and where is the Career Fair hosted?</h4>
+						  	<p>This year DECaF has been moved to January 19th 2017 and it will run from 9am-3pm. Please arrive early ~8am to set-up and check-in. DECaF is hosted in the Price Center Ballrooms East and West in the center of UCSD campus.</p>
+						  	<h4>How do I register for the fair?</h4>
+						  	<ul>
+						  		<li>1. Please follow this link: <a href="http://events.eventzilla.net/e/decaf-2017-disciplines-in-engineering-career-fair-at-university-of-california-san-diego-2138872111">Registration</a></li>
+						  		<li>2. Choose the appropriate package of your choice and click register now.</li>
+						  		<li>3. Fill in all the forms and complete the payment either by check or paypal.</li>
+						  		<li>4. You should receive a confirmation, if you did not receive a confirmation please email <a href="mailto:vera@tesc.ucsd.edu">vera@tesc.ucsd.edu</a> to troubleshoot the problem.</li>
+						  	</ul>
+						  	<h4>How do I pay for the Career Fair?</h4>
+						  	<p>You can either pay by check or using paypal during the registration. Before using paypal make sure that your account is confirmed or the payment will not go through. If you did not receive a payment confirmation after using paypal, please email <a href="mailto:vera@tesc.ucsd.edu">vera@tesc.ucsd.edu</a> or our technical lead Shivam at <a href="mailto:shivam@tesc.ucsd.edu">shivam@tesc.ucsd.edu</a>.</p>
+						  	<p>If you choose to pay by check please make out checks to UC Regents, with the Memo "DECaF", and mail checks to the following:</p>
+						  	<ul style="font-style: italic;">
+						  		<li>UC San Diego, Jacobs School of Engineering</li>
+						  		<li>Attn: Fiscal Department</li>
+						  		<li>9500 Gilman Drive</li>
+						  		<li>MC 0403</li>
+						  		<li>La Jolla, CA</li>
+						  		<li>92093</li>
+						  	</ul>
+						  	<h4>Where do I send my company materials/banners?</h4>
+						  	<p>Please have your materials arrive at UC San Diego between January 9th - January 17th, and we will have your boxes waiting at your table when you arrive. We have two addresses, if you are shipping small packages use this address:</p>
+						  	<ul style="font-style: italic;">
+						  		<li>IDEA Engineering Student Center</li>
+						  		<li>University of California at San Diego</li>
+						  		<li>9500 Gilman Drive #0429</li>
+						  		<li>La Jolla, CA 92093</li>
+						  	</ul>
+						  	<p>If you have large packages or a combination of the two, please send them to:</p>
+						  	<ul style="font-style: italic;">
+						  		<li>IDEA Engineering Student Center</li>
+						  		<li>#0429</li>
+						  		<li>7835 Trade St., Suite 100</li>
+						  		<li>San Diego, CA 92121</li>
+						  	</ul>
+						  	<p>Both will add an additional 1-2 business days to delivery so please send them early!</p>
+						  	<h4>How can I add information about additional representatives?</h4>
+						  	<p>We will soon email all the companies a link to fill in the all the additional updated information.</p>
+						  	<h4>If you need an invoice for the check payment?</h4>
+						  	<p>Please email <a href="mailto:vera@tesc.ucsd.edu">vera@tesc.ucsd.edu</a> to request one</p>
+						  	<h4>How can I reserve private interview rooms?</h4>
+						  	<p>We will provide private interview rooms for all the Corporate Sponsors, we will send out a form closer to the date for you to request them. In addition all companies can request private interview rooms by contacting UCSD Career Services Center and filling in the form on port triton.</p>
+						  </div>
+						  <div class="tab-pane" id="two">Coming Soon</div>
 						</div>
 					</div>
-				</form>
-			</article> -->
+				</div>
+			</article>
 
 		<!-- Generic -->
 		
@@ -292,6 +340,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/skeleton-tabs.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
