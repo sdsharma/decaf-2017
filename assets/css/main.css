@@ -1805,13 +1805,17 @@
 			padding: 3em;
 		}
 
+		.box.style1 p{
+			font-size: 75%;
+		}
+
 			.box.style1 .image {
 				display: block;
 				position: absolute;
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #fff;
 				overflow: hidden;
 			}
 
@@ -1827,7 +1831,7 @@
 			}
 
 			.box.style1.right .image {
-				left: 0;
+				left: 10px;
 			}
 
 				.box.style1.right .image img {
@@ -2441,6 +2445,7 @@
 							position: relative;
 							height: auto;
 							width: 100%;
+							margin: -20% auto -30% auto;
 						}
 
 					.box.style1 .inner {
